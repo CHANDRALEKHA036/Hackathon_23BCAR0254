@@ -1,38 +1,49 @@
-# Voice-Driven Data Analyst
+# Voice Data Analysis Assistant
 
-This is a Streamlit-based voice assistant for data analysis. It supports various tasks like data visualization, cleaning, and exploring datasets through voice commands.
+This project is designed to analyze and visualize data through voice commands and interactive visualizations.
 
-## How to Run the App
-1. **Clone the Repository**  
-Run this command in your terminal or command prompt:  
+## Installation Guide
+### Step 1: Install Git
+If Git is not already installed on your system, download and install it from the following link:
+
+➡️ [Download Git](https://git-scm.com/downloads)
+
+Follow the instructions on the website to install Git based on your operating system.
+
+### Step 2: Clone the Repository
+After installing Git, run this command in your terminal or command prompt:
 ```
 git clone https://github.com/CHANDRALEKHA036/Hackathon_23BCAR0254.git
 cd Hackathon_23BCAR0254/Hackathon_23BCAR0254
 ```
 
-2. **Install Dependencies**  
-Run this command to install the required libraries:  
+### Step 3: Install Dependencies
+Run the following command to install all required dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-3. **Run the App**  
-Run the following command to start the application:  
+### Step 4: Run the Application
+For the voice-driven data analyst app, run the following command:
 ```
-streamlit run "Voice Data App.py"
+streamlit run app/voice_data_app.py
 ```
 
-4. **Using Voice Commands**  
-Once the app opens:
-- Upload a CSV or Excel dataset.
-- Use voice commands like:
-  - **"Show columns"**
-  - **"Show first rows"**
-  - **"Check missing values"**
-  - **"Show histogram"**
-  - **"Show correlation heatmap"**
-  - **"Exit"** (to stop continuous voice mode).
+For the Jupyter Notebook code version, open Jupyter Notebook and run `voice_data_app.ipynb`.
 
-5. **Troubleshooting**  
-- If errors occur with `speechrecognition`, check microphone permissions.
-- If libraries are missing, run `pip install -r requirements.txt` again.
+### Step 5: How to Use
+- Use the **Upload Dataset** option to upload your dataset (CSV/XLSX).
+- Follow the on-screen instructions or speak commands for data visualization tasks.
+
+### Available Commands
+- 'Show columns'
+- 'Show first rows'
+- 'Check missing values'
+- 'Clean data'
+- 'Show histogram'
+- 'Show scatter plot'
+- 'Show correlation heatmap'
+- 'Export data'
+- 'Exit'
+
+For further queries, feel free to reach out!
